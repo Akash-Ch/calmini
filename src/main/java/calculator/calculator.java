@@ -1,28 +1,37 @@
 package calculator;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 import static java.lang.System.exit;
 
 public class calculator{
+    private static final Logger logger = LogManager.getLogger(calculator.class);
     public calculator(){}
 
     public double sqroot(double n){
+        logger.info("Calculating square root, square root of " +n+" is "+Math.sqrt(n));
         return Math.sqrt(n);
     }
     public double fact(double n){
-        if(n<0) return Double.NaN;
+        if(n<0){
+            logger.info("Cannot calculate faltorial of neg numbers");
+            return Double.NaN;
+        }
         double result=1;
         for(int i=1;i<=n;i++){
             result*=i;
         }
+        logger.info("Calculating factorial, factorial of "+n+" is "+ result);
         return result;
     }
 
     public double logarithm(double n){
+        logger.info("Calculating natural logarithm, natural logarithm of "+n+" is "+Math.log(n));
         return Math.log(n);
     }
 
     public double power(double n, double x){
+        logger.info("Calculating power,"+n+" to the power of "+x+" is "+Math.pow(n,x));
         return Math.pow(n,x);
     }
 

@@ -4,5 +4,5 @@
   tasks:
     - name: Pulling Image from Docker Hub
       docker_image:
-        name: akash248/calmini
+        name: akashch248/calmini
         source: pull

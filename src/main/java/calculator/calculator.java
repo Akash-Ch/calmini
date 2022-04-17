@@ -18,8 +18,10 @@ public class calculator{
             return Double.NaN;
         }
         double result=1;
-        for(int i=1;i<=n;i++){
+        double i=n;
+        while(i>1){
             result*=i;
+            i--;
         }
         logger.info("Calculating factorial, factorial of "+n+" is "+ result);
         return result;
@@ -50,27 +52,27 @@ public class calculator{
             double x,n,result;
             switch(choice){
                 case 1:
-                    System.out.println("SQUARE ROOT - Enter a number---");
+                    System.out.println("SQUARE ROOT - Enter a number:-");
                     n=sc.nextDouble();
                     result=mycalc.sqroot(n);
                     System.out.println("Square root of "+n+" is "+result);
                     break;
                 case 2:
-                    System.out.println("FACTORIAL - Enter a number---");
+                    System.out.println("FACTORIAL - Enter a number:-");
                     n=sc.nextDouble();
                     result=mycalc.fact(n);
                     System.out.println("Factorial of "+n+" is "+result);
                     break;
                 case 3:
-                    System.out.println("NATURAL LOGARITHM - Enter a number---");
+                    System.out.println("NATURAL LOGARITHM - Enter a number:-");
                     n=sc.nextDouble();
                     result=mycalc.logarithm(n);
                     System.out.println("Natural logarithm of "+n+" is "+result);
                     break;
                 case 4:
-                    System.out.println("POWER - Enter a number---");
+                    System.out.println("POWER - Enter a number:-");
                     n=sc.nextDouble();
-                    System.out.println("Enter the power---");
+                    System.out.println("Enter the power:-");
                     x=sc.nextDouble();
                     result=mycalc.power(n,x);
                     System.out.println(n+" to the power of "+x+" is "+result);

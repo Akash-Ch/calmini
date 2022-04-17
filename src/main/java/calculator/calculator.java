@@ -81,6 +81,7 @@ public class calculator{
                     System.out.println("        EXITING       ");
                     exit(0);
             }
+            System.out.println("---------------------------------------------------");
         }
     }
 }

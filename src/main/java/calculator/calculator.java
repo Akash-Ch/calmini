@@ -9,12 +9,12 @@ public class calculator{
     public calculator(){}
 
     public double sqroot(double n){
-        logger.info("Calculating square root, square root of " +n+" is "+Math.sqrt(n));
+        logger.info("sqroot");
         return Math.sqrt(n);
     }
     public double fact(double n){
         if(n<0){
-            logger.info("Cannot calculate faltorial of neg numbers");
+            logger.info("fact");
             return Double.NaN;
         }
         double result=1;
@@ -23,17 +23,17 @@ public class calculator{
             result*=i;
             i--;
         }
-        logger.info("Calculating factorial, factorial of "+n+" is "+ result);
+        logger.info("fact");
         return result;
     }
 
     public double logarithm(double n){
-        logger.info("Calculating natural logarithm, natural logarithm of "+n+" is "+Math.log(n));
+        logger.info("logarithm");
         return Math.log(n);
     }
 
     public double power(double n, double x){
-        logger.info("Calculating power,"+n+" to the power of "+x+" is "+Math.pow(n,x));
+        logger.info("power");
         return Math.pow(n,x);
     }
 

@@ -1,4 +1,16 @@
-2022-04-17 15:59:29.505 [calculator.java] INFO  calculator.calculator - Calculating factorial, factorial of 5.0 is 120.0
-2022-04-17 15:59:35.205 [calculator.java] INFO  calculator.calculator - Cannot calculate faltorial of neg numbers
-2022-04-17 16:02:14.938 [calculator.java] INFO  calculator.calculator - Calculating power,3.0 to the power of 5.0 is 243.0
-2022-04-18 11:38:38.029 [calculator.java] INFO  calculator.calculator - Calculating square root, square root of 16.0 is 4.0
+2022-04-18 16:42:15.426 [calculator.java] INFO  calculator.calculator - Calculating natural logarithm, natural logarithm of 10.0 is 2.302585092994046
+2022-04-18 16:42:15.430 [calculator.java] INFO  calculator.calculator - Calculating natural logarithm, natural logarithm of -5.0 is NaN
+2022-04-18 16:42:15.431 [calculator.java] INFO  calculator.calculator - Calculating natural logarithm, natural logarithm of 26.0 is 3.258096538021482
+2022-04-18 16:42:15.431 [calculator.java] INFO  calculator.calculator - Calculating natural logarithm, natural logarithm of -6.0 is NaN
+2022-04-18 16:42:15.433 [calculator.java] INFO  calculator.calculator - Calculating square root, square root of 9.0 is 3.0
+2022-04-18 16:42:15.433 [calculator.java] INFO  calculator.calculator - Calculating square root, square root of -25.0 is NaN
+2022-04-18 16:42:15.433 [calculator.java] INFO  calculator.calculator - Calculating square root, square root of 16.0 is 4.0
+2022-04-18 16:42:15.434 [calculator.java] INFO  calculator.calculator - Calculating square root, square root of -24.0 is NaN
+2022-04-18 16:42:15.434 [calculator.java] INFO  calculator.calculator - Calculating factorial, factorial of 5.0 is 120.0
+2022-04-18 16:42:15.435 [calculator.java] INFO  calculator.calculator - Cannot calculate faltorial of neg numbers
+2022-04-18 16:42:15.435 [calculator.java] INFO  calculator.calculator - Calculating factorial, factorial of 5.0 is 120.0
+2022-04-18 16:42:15.435 [calculator.java] INFO  calculator.calculator - Cannot calculate faltorial of neg numbers
+2022-04-18 16:42:15.436 [calculator.java] INFO  calculator.calculator - Calculating power,2.0 to the power of 3.0 is 8.0
+2022-04-18 16:42:15.436 [calculator.java] INFO  calculator.calculator - Calculating power,2.0 to the power of -1.0 is 0.5
+2022-04-18 16:42:15.437 [calculator.java] INFO  calculator.calculator - Calculating power,2.0 to the power of 3.0 is 8.0
+2022-04-18 16:42:15.437 [calculator.java] INFO  calculator.calculator - Calculating power,2.0 to the power of -3.0 is 0.125

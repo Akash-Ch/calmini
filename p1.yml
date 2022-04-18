@@ -1,5 +1,5 @@
 ---
-- name: Pulling Image
+- name: Pulling Docker Image
   hosts: all
   tasks:
     - name: Pulling Image from Docker Hub
